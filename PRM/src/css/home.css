@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input {
+    outline: none;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-style: 0;
+    background-color: #FF00BF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+p {
+    font-family: 'Sevillana', cursive;
+    font-size: 1.5em;
+    width: 150px;
+    text-align: center;
+}
+
+/*formatação conteiner*/
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/fundo.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+/*nome dos pretendentes*/
+#suitors-name {
+    position: absolute; 
+    left: 15%;
+    top: 30%;
+    text-align: center;
+}
+/*lugares*/
+#places {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    text-align: center;
+}
+
+/*caixa*/
+#box-container {
+    width: 200px; 
+    height: 200px;
+    border: 2px solid #FF00BF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    gap: 10px;
+    margin-bottom: 230px;
+}
+#box-container input {
+    width: 50px;
+    height: 20px;
+}
+/*filhos*/
+#children-container {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    gap: 10px;
+}
+#children {
+    display: flex;
+    gap: 10px;
+}
+/*riqueza*/
+#wealth-container {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    gap: 10px;
+    padding: 1%;
+    margin-top: 215px
+}
+#wealth {
+    display: flex;
+    gap: 10px;
+} 
+
+#btn-start {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    font-size: 1.5em;
+    font-family: 'Sevillana', cursive;
+    cursor: pointer;
+    background: #FF00BF;
+    border-radius: 5px;
+}
+
+.suitors input {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 20px;
+}
+.places  input {
+    margin-bottom: 10px;
+    width: 150px;   
+    height: 20px;
+}
+
+.children input {
+    width: 50px;
+    height: 20px;
+}
+.wealth input {
+    width: 50px;
+    height: 20px;
+}
+
+
+
